@@ -1,0 +1,16 @@
+.sobre__desc{
+    color: #595959;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0){
+    .sobre__desc{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre__desc{
+        font-size: 1.75rem;
+    }
+}

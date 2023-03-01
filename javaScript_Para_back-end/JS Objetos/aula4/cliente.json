@@ -1,0 +1,11 @@
+{
+    "nome":"carlos",
+    "email":"açfsdj@gmail.com",
+    "telefone": ["3523456234", "9503475034"],
+    "endereco": {
+        "rua": "R. bartolemeu",
+        "numero": "304",
+        "apartamento": "false",
+        "complemento": "casa"
+    }
+}
