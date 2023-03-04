@@ -1,0 +1,58 @@
+DOM(Document Object Model)
+
+DOM:É uma interface de linguagem neutra que permite que o 
+documento HTMl seja atualizado dinamicamente
+
+
+Métodos para selecionar elementos no html
+
+- document.getElementByID(id)
+Selecionar um elemento pelo id
+
+
+- document.getElementByTagName(name)
+Selecionar um elemento pelo nome
+
+- document.getElementByClassName(name)
+Selecionar um elemento pelo nome da classe
+
+-----------------------------------------------------------------------------------------------------
+
+Propriedades e métodos para alterar elementos no html
+
+- element.innerHTML
+Esta Propriedade obtém ou altera qualquer elemento no HTML, inclusive tags
+
+- element.innerText 
+Esta Propriedade permite inserir textos no HTML
+
+- element.attribute 
+Esta Propriedade altera o valor de um elemento html
+
+- element.seAttribute(atributo, valor) 
+Este método altera o valor de um atributo de um elemento HTML
+
+------------------------------------------------------------------------------------------------------------------
+
+Adicionando e excluindo elementos
+
+- document.write()
+Escreve no fluxo de saída do HTML
+
+- document.appendChild()
+Adiciona um elemento HTML
+
+- document.removeChild()
+Remove um elemento HTML
+
+- document.replaceChild()
+Substitui um elemento HTML
+
+- document.createElement()
+Cria um elemento HTML
+
+
+--------------------------------------------------------
+Uso de Data-attributes : São utilizados para guardar valores em elementos html.
+
+evento.target: vai trazer onde o click aconteceu
