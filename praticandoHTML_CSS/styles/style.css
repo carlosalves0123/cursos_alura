@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url(/praticandoHTML_CSS/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__botao {
+    display: block;
+    background-color: var(--botao-azul);
+    text-decoration: none;
+    border-radius: 8px;
+    color: var(--branco-principal);
+    padding: 1rem;
+    text-align: center;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso{
+    font-size: 0.75rem;
+    color: var(--cinza-secundario);
+}
