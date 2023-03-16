@@ -28,15 +28,25 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa {
+    margin: 6em 0 0 6em;
+}
+
 .principal {
     background-image: url(/praticandoHTML_CSS/img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container__titulo {
     font-size: 1.75rem;
     font-weight: 700;
+}
+
+.container__img {
+    margin: 1em 0em 2em 0em;
 }
 
 .container__botao {
@@ -47,6 +57,7 @@ body {
     color: var(--branco-principal);
     padding: 1rem;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .botao__secundario {
@@ -59,3 +70,50 @@ body {
     font-size: 0.75rem;
     color: var(--cinza-secundario);
 }
+
+
+.container__descricao{
+    padding: 2em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em 0 10em;
+}
+.secundario__img {
+    width: 75%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em ;
+}
+
+
+.secundario__texto {
+    font-weight: 400;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    list-style: none;
+}
+
